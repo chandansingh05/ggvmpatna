@@ -1,0 +1,683 @@
+
+<!--
+ /**
+ *
+ * Client: Guru Gyan Vidya Mandir School Patna
+ * @link https://www.ggvmpatna.com/
+ * Built By: SilkExpox Technologies Pvt. Ltd.
+ * Project Manager: Chandan Kumar
+ *
+ */
+-->
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+<title>GGVM Patna | HOME </title>
+<meta charset="utf-8" />
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="images/logo.jpg">
+<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,400italic,700,700italic,300,300italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Euphoria+Script' rel='stylesheet' type='text/css'>
+<!-- <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" /> -->
+<link rel="stylesheet" media="screen" href="css/quick_newsletter.css" / > 
+<link rel="stylesheet" type="text/css" href="css/skin.css" />
+<link rel="stylesheet" href="css/layerslider.css" />
+<link rel="stylesheet" href="css/colorbox.css" />
+<link rel="stylesheet" href="css/bootstrap.css" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/responsive.css" />
+<link rel="stylesheet" href="css/color-01.css" id="site-color" />
+<link rel="stylesheet" href="css/hover.css" />
+<link rel="stylesheet" href="css/date.css" />
+
+<!-- Attach our CSS -->
+<link rel="stylesheet" href="css/reveal.css" />
+
+<!--[if IE]>
+<link rel="stylesheet" href="./css/ie-style.css" />
+<![endif]-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+
+
+<!-- Gallery Code Start -->
+<link rel="stylesheet" href="css/colorbox_new.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/jquery.colorbox_new.js"></script>
+<script>
+			$(document).ready(function(){
+				//Examples of how to assign the Colorbox event to elements
+				$(".group1").colorbox({rel:'group1'});
+				$(".group2").colorbox({rel:'group2', transition:"fade"});
+				$(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
+				$(".group4").colorbox({rel:'group4', slideshow:true});
+				$(".ajax").colorbox();
+				$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+				$(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
+				$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+				$(".inline").colorbox({inline:true, width:"50%"});
+				$(".callbacks").colorbox({
+					onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+					onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+					onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+					onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+					onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+				});
+
+				$('.non-retina').colorbox({rel:'group5', transition:'none'})
+				$('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
+				
+				//Example of preserving a JavaScript event for inline calls.
+				$("#click").click(function(){ 
+					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+					return false;
+				});
+			});
+</script>
+<!-- Gallery Code Start -->
+<!--<script src='https://www.greenschoolsprogramme.org/audit/assets/js/badge-code.js'></script>-->
+<script>
+			/*School Badge Code*/
+		window.onload = function(){
+		     	  get_date_difference('Jun 30 2023');
+			}
+
+
+/********************************************************************************/
+/********************************************************************************/
+/*Function Calculate Current Date*/
+function get_current_date(){
+	var today = new Date();
+    var dd = today.getDate();
+    var mm = today.getMonth()+1; //January is 0!
+    var yyyy = today.getFullYear();
+    if(dd<10){ dd='0'+dd; } 
+    if(mm<10){ mm='0'+mm; } 
+    var today = mm+'/'+dd+'/'+yyyy;
+	return today;
+}
+/********************************************************************************/
+/********************************************************************************/
+/*Function Calculate Current Date Difference*/
+function get_date_difference(end_date)
+{
+var d1 = new Date(end_date);
+var d2 = new Date(get_current_date());
+var timeDiff = d1.getTime() - d2.getTime();
+var DaysDiff = timeDiff / (1000 * 3600 * 24);
+   if(DaysDiff > 0){
+	  $('.badges').append('<a href="https://www.greenschoolsprogramme.org/"><img src=https://www.greenschoolsprogramme.org/audit/assets/img/images/GSPLogocolour.jpg width=120px /></a>');
+   }
+}
+</script>
+</head>
+
+<body>
+<!--
+<div style="position:fixed;width:30px;height:170px;margin-top:170px;right:0px;z-index:1000;">
+<a href="admission_enquiry.php?PAGE=38" class="hvr-bubble-float-right"><img src="images/admission_enquiry.png"></a>
+</div>
+-->
+<div style="position:fixed;width:30px;height:170px;margin-top:380px;right:0px;z-index:1000;">
+<a href="online_payment.html" class="hvr-bubble-float-right"><img src="images/online_payment.png"></a>
+</div>
+<!--
+<div style="position:fixed;width:30px;height:170px;margin-top:400px;right:0px;z-index:1000;">
+<a href="contact.php?PAGE=31" class="hvr-bubble-float-right"><img src="images/contact_us.png"></a>
+</div>
+-->
+
+<div class="gray-line gray-line-3"></div>
+
+<!-- header start //-->
+<div class="container">
+	<div class="row">
+		<div class="span4">
+        	<!-- site logo	//-->
+        	<a href="index.html"><div class="site-logo site-logo-3"></div></a>
+        </div>
+        <div class="span8">
+			<div class="header-social-buttons">
+				<a href="https://itunes.apple.com/us/app/delhi-public-school-patna/id1011125800?ls=1&mt=8" target="_blank"><img src="images/apple.png"></a> 
+				<a href="https://play.google.com/store/apps/details?id=com.edunext.dpspatna" target="_blank"><img src="images/android.png"></a> 
+            </div>
+            <!-- header contacts //-->
+            <div class="header-contacts hidden-phone visible-tablet visible-desktop">
+            	<p><span class="contact-1"><i class="fa fa-mobile" aria-hidden="true"></i> </span><strong>+91 9097714779 / +91 9955957667</strong></p>
+                <!--
+				<p style="margin-right:0px;"><span class="contact-2">Email us: </span><i class="icon-envelope hidden-desktop visible-tablet"></i><a href="#">info@dpspatna.com</a></p>
+				-->
+            </div>
+            <!-- site desktop menu start //-->
+            <nav class="site-desktop-menu">
+				<ul class='sf-menu clearfix'><li ><a  href='index.html'> Home</a></li><li ><a  href='about_us.html'>About Us</a><ul ><li ><a  href='about_us.html'>About GGVM Patna</a></li><li ><a  href='page.php?PAGE=3'>Infrastructure</a></li><li ><a  href='page.php?PAGE=5'>Academic Programme</a></li><li ><a  href='page.php?PAGE=4'>Faculty</a></li><li ><a  href='page.php?PAGE=6'>Co-Curricular Programme</a></li><li ><a  href='page.php?PAGE=7'>Assessments</a></li><li ><a  href='page.php?PAGE=46'>Transport</a></li><li ><a  href='https://www.dpspatna.com/upload/pdf/Mandatory-Public-Disclosure.pdf'>Mandatory Information</a></li></ul></li><li ><a  href='Admissions.html'> Admissions</a></li><li ><a  href='#'>Careers</a><ul ><li ><a  href='advertisement.html'>Advertisement</a></li><li ><a  href='page.php?PAGE=63'>Careers @ GGVM Patna</a></li><li ><a  href='page.php?PAGE=12'>Applying to GGVM</a></li></ul></li><li ><a  href='#'>Info Link</a><ul ><li ><a  href='http://www.takshila.net'>Takshila</a></li><li ><a  href='http://www.dpscoimbatore.com/'>GGVM Coimbatore</a></li><li ><a  href='http://www.dpspune.com/'>GGVM Pune</a></li><li ><a  href='#'>GGVM Patna</a></li><li ><a  href='http://www.dpsludhiana.com/'>GGVM Ludhiana</a></li><li ><a  href='http://dictionary.cambridge.org/'> Dictionary</a></li><li ><a  href='http://cbse.nic.in/'>CBSE</a></li><li ><a  href='https://ncert.nic.in/'>NCERT</a></li><li ><a  href='http://spicmacay.com/'>Spic Macay</a></li><li ><a  href='https://www.khanacademy.org/'>Khan Academy</a></li><li ><a  href='http://dpspatna.com/upload/pdf/List of banks participating in NACH.pdf'>NACH - Live Banks</a></li><li ><a  href='http://trinayani.org/'>Trinayani</a></li><li ><a  href='http://vivohealthcare.com/'>ViVo Healthcare </a></li><li ><a  href='page.php?PAGE=95'>Useful Software Links</a></li><li ><a  href='http://www.olabs.edu.in/'>Online Labs</a></li><li ><a  href='https://diksha.gov.in/'>DIKSHA</a></li><li ><a  href='https://www.dpspatna.com/upload/pdf/BooksStationaty-pat.pdf'>Books, Notebooks, Stationery & Uniform</a></li></ul></li><li ><a  href='page.php?PAGE=91'> Alumni</a></li><li ><a  href='page.php?PAGE=55'> Outreach</a></li><li ><a  href='#'>Gallery</a><ul ><li ><a  href='image-gallery.php?PAGE=61'>Image Gallery</a></li><li ><a  href='video.php'>Video Gallery</a></li></ul></li><li ><a  href='contact_us.html'> Contact Us</a></li></ul>			</nav>
+            <!-- site desktop menu end //-->
+            <!-- site desktop menu start //-->
+            <nav class="site-mobile-menu">
+            	<i class="icon-reorder"></i>
+				<ul class='sf-menu clearfix'><li ><a  href='index.html'> Home</a></li><li ><a  href='about_us.html'>About Us</a><ul ><li ><a  href='about_us.html'>About GGVM Patna</a></li><li ><a  href='page.php?PAGE=3'>Infrastructure</a></li><li ><a  href='page.php?PAGE=5'>Academic Programme</a></li><li ><a  href='page.php?PAGE=4'>Faculty</a></li><li ><a  href='page.php?PAGE=6'>Co-Curricular Programme</a></li><li ><a  href='page.php?PAGE=7'>Assessments</a></li><li ><a  href='page.php?PAGE=46'>Transport</a></li><li ><a  href='https://www.dpspatna.com/upload/pdf/Mandatory-Public-Disclosure.pdf'>Mandatory Information</a></li></ul></li><li ><a  href='Admissions.html'> Admissions</a></li><li ><a  href='#'>Careers</a><ul ><li ><a  href='advertisement.html'>Advertisement</a></li><li ><a  href='page.php?PAGE=63'>Careers @ GGVM Patna</a></li><li ><a  href='page.php?PAGE=12'>Applying to GGVM</a></li></ul></li><li ><a  href='#'>Info Link</a><ul ><li ><a  href='http://www.takshila.net'>Takshila</a></li><li ><a  href='http://www.dpscoimbatore.com/'>GGVM Coimbatore</a></li><li ><a  href='http://www.dpspune.com/'>GGVM Pune</a></li><li ><a  href='#'>GGVM Patna</a></li><li ><a  href='http://www.dpsludhiana.com/'>GGVM Ludhiana</a></li><li ><a  href='http://dictionary.cambridge.org/'> Dictionary</a></li><li ><a  href='http://cbse.nic.in/'>CBSE</a></li><li ><a  href='https://ncert.nic.in/'>NCERT</a></li><li ><a  href='http://spicmacay.com/'>Spic Macay</a></li><li ><a  href='https://www.khanacademy.org/'>Khan Academy</a></li><li ><a  href='http://dpspatna.com/upload/pdf/List of banks participating in NACH.pdf'>NACH - Live Banks</a></li><li ><a  href='http://trinayani.org/'>Trinayani</a></li><li ><a  href='http://vivohealthcare.com/'>ViVo Healthcare </a></li><li ><a  href='page.php?PAGE=95'>Useful Software Links</a></li><li ><a  href='http://www.olabs.edu.in/'>Online Labs</a></li><li ><a  href='https://diksha.gov.in/'>DIKSHA</a></li><li ><a  href='https://www.dpspatna.com/upload/pdf/BooksStationaty-pat.pdf'>Books, Notebooks, Stationery & Uniform</a></li></ul></li><li ><a  href='page.php?PAGE=91'> Alumni</a></li><li ><a  href='page.php?PAGE=55'> Outreach</a></li><li ><a  href='#'>Gallery</a><ul ><li ><a  href='image-gallery.php?PAGE=61'>Image Gallery</a></li><li ><a  href='video.php'>Video Gallery</a></li></ul></li><li ><a  href='contact_us.html'> Contact Us</a></li></ul>			</nav>
+            <!-- site desktop menu end //-->
+        </div>
+    </div>
+</div><!--added by Majister-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+
+<style>
+.popup p, h3, span {
+	text-align:inherit;
+	margin-bottom: 10px;
+}
+
+.popup h3{
+	margin-top: 10px;
+}
+.popup p span {
+	text-align:inherit;"
+}
+.blinking{
+	animation:blinkingText 1.5s linear infinite;
+}
+@keyframes blinkingText{
+	0%{		color: #000;	}
+	49%{	color: #000;	}
+	50%{	color: orrange;	}
+	99%{	color:red;	}
+	100%{	color: transparent;	}
+	}
+</style>
+
+
+
+	 <!-- slider start #1 //-->
+		<div id="layerslider-container-fw" class="home-slider">
+			<div style="position:absolute;width:333px;height:132px;background-color:#e4e4e4;right:40px;bottom:20px;z-index:10;">
+				<iframe name="I1" src="login.html" scrolling="no" height="132px" width="100%" border="0" frameborder="0">
+				Your browser does not support inline frames or is currently configured not to display inline frames.
+				</iframe>
+			</div>
+			<div style="position:absolute;width:140px;height:143px;background:#75a86e;left:40px;bottom:20px;z-index:10;padding:10px;">
+				<div class='badges' style='height:200px; height:200px;'></div>
+			</div>
+
+			<div id="layerslider" style="width: 100%; height: 450px; margin: 0px auto; ">
+                                <div class="ls-layer" style="slidedirection: right; transition2d: 110,111,112,113; ">
+					<img src="images/banner2.jpg" class="ls-bg" alt="Slide background">
+				</div>
+                                 <div class="ls-layer" style="slidedirection: right; transition2d: 110,111,112,113; ">
+					<img src="images/banner3.jpg" class="ls-bg" alt="Slide background">
+				</div>
+                                 <div class="ls-layer" style="slidedirection: right; transition2d: 110,111,112,113; ">
+					<img src="images/banner4.jpg" class="ls-bg" alt="Slide background">
+				</div>
+                                 <div class="ls-layer" style="slidedirection: right; transition2d: 110,111,112,113; ">
+					<img src="images/banner5.jpg" class="ls-bg" alt="Slide background">
+				</div>
+                                 <div class="ls-layer" style="slidedirection: right; transition2d: 110,111,112,113; ">
+					<img src="images/banner6.jpg" class="ls-bg" alt="Slide background">
+				</div>
+                                 <div class="ls-layer" style="slidedirection: right; transition2d: 110,111,112,113; ">
+					<img src="images/banner7.jpg" class="ls-bg" alt="Slide background">
+				</div>
+                                 <div class="ls-layer" style="slidedirection: right; transition2d: 110,111,112,113; ">
+					<img src="images/banner8.jpg" class="ls-bg" alt="Slide background">
+				</div>
+                                 <div class="ls-layer" style="slidedirection: right; transition2d: 110,111,112,113; ">
+					<img src="images/banner9.jpg" class="ls-bg" alt="Slide background">
+				</div>
+                                 <div class="ls-layer" style="slidedirection: right; transition2d: 110,111,112,113; ">
+					<img src="images/banner10.jpg" class="ls-bg" alt="Slide background">
+				</div>
+                 			</div>
+		</div>
+    <!-- slider end #1 //-->
+	 
+<!-- News //-->
+<div class="main-content-block testimonials-2 pattern-bg purchase1">
+	<div class="container">
+    	<div class="row">
+        	<div class="span3">
+			<h2 style="color:#fff;margin-bottom:0px;font-weight:100;font-size:16px;"><i class="fa fa-list-alt" aria-hidden="true"></i> Latest @ GGVM Patna</h2>
+			</div>
+			<div class="span9" style="padding-top:6px;">
+				<style>
+					.purchase1 ul li { display: inline;margin-right:100px;line-height: 20px;}
+					.purchase1>span {width: 0;position: absolute;right: -10px;top: 5px;height: 0;border-style: solid;border-width: 10px 0 10px 10px;border-color: transparent transparent transparent #2F5202;}
+					.purchase1>.bn-title {width: auto;height: 30px;display: inline-block;background: #2F5202;position: relative;}
+				</style>
+				<marquee scrollamount="3" scrolldelay="40" onMouseOver="this.stop();" onMouseOut="this.start();" style="margin-top:-10px;">
+					<ul>                
+												<li style="color:#fff;">Welcome to Guru Gyan Vidya Mandir School</li>
+											</ul>
+				</marquee>
+    		</div>
+    	</div>
+    </div>
+</div>
+
+<div class="main-content-block">
+    <div class="container">
+        <div class="row" style="margin-top:20px;">
+            <!-- Welcome start //-->
+			<div class="span8">
+                <div>
+                    <h2 style="font-size: 20px; font-weight: 300;"><i class="fa fa-university" aria-hidden="true"></i> Welcome to GGVM Patna</h2>
+					<p>
+					GGVM Educational Society laid the foundation of veritable learning in Patna by establishing Guru Gyan Vidya Mandir School in the year 2015 in a collaborative effort with the Delhi Public Schools Society, which is one of the largest chains of CBSE schools in India. DPS Patna is affiliated to CBSE, New Delhi and offers schooling from Nursery to Class XII. The last twenty three years have been a journey where perseverance and progress have been the cornerstones. Today it can proudly claim to be one of the most sought after schools in Eastern India.</p>
+					<p>
+					Far from the bustling urban environs, GGVM Patna is situated near the Bank of Baroda Khemnichak. The sylvan and pristine surroundings lend a serene touch to the impressive campus spread over several acres. A marvel of modern architecture, the campus contains well-lit airy classrooms, outdoor theatre, performing art block, cafeteria, spacious courtyards for indoor games, and beautifully landscaped lawns.<br>
+					</p>
+				</div>
+            </div>
+            <!-- Welcome end //-->
+
+            <div class="span4">
+                <!-- Latest Circulars ERP start //-->
+                    <h2 style="background: #800080;padding: 12px;border-bottom: 1px solid #fff; color:#fff;margin-bottom:0px;font-weight:100;font-size: 20px;"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Latest Circulars</h2>
+                    <div class="main-content-block-entry">
+                       <iframe name="I1" src="Circular.html" scrolling="no" height="420px" width="100%" border="0" frameborder="0">
+						Your browser does not support inline frames or is currently configured not to display inline frames.
+						</iframe>
+                    </div>
+                <!-- Latest Circulars ERP end //-->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Deactivated on 27/6/16 -->
+<div class="main-content-block">
+    <div class="container">
+        <div class="row" style="margin-top:-200px;">
+		<h2 style="margin-left:30px;margin-bottom:0px;font-weight: bold;text-transform: uppercase;color: #333;font-size: 20px; font-weight: 300;"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> Upcoming Events</h2>
+						<a href="upcoming_event.html"> 
+			<div class="span4">
+					<div class="span4 hvr-float-shadow target" style="margin:10px 5px 5px 0px;height:138px;background:#333333;z-index:1">
+						<table border="0" width="100%" cellspacing="0" cellpadding="0">
+							<tr>
+								<td width="138"><img src="images/Republic Day 2022 Invitation Template.jpg" title="Republic Day 2023" style="display: block;margin-left: auto;margin-right: auto;width:138px;height:138px;"></td>
+								<td valign="top" style="padding:10px;">
+								<div>
+									<div class="tt-b-day rem-border" style="color:#fff;">05</div>
+									<div class="tt-b-day-r">
+										<div class="tt-b-month" style="color:#fff;">Jan</div>
+										<div class="tt-b-date" style="color:#fff;">2023</div>
+									</div>
+								</div><br><br>
+								<h5 style="margin-left:10px;color:#FF8B17;font-weight:100;">Republic Day 2023</h5><span style="font-size:10px;margin-left:10px;color:#777;">Upcoming Event</span>
+								<div style="padding-top:10px;">
+								<span style="margin-left:10px;background:#FF8B17;color:#fff;padding:5px 10px;">+Read More</span>
+								</div>
+								</td>
+							</tr>
+						</table>
+					</div>
+			</div>
+			</a>
+						<a href="upcoming_event_detail.php?id=9"> 
+			<div class="span4">
+					<div class="span4 hvr-float-shadow target" style="margin:10px 5px 5px 0px;height:138px;background:#333333;z-index:1">
+						<table border="0" width="100%" cellspacing="0" cellpadding="0">
+							<tr>
+								<td width="138"><img src="images/968591658395685.jpg" title="Investiture Ceremony" style="display: block;margin-left: auto;margin-right: auto;width:138px;height:138px;"></td>
+								<td valign="top" style="padding:10px;">
+								<div>
+									<div class="tt-b-day rem-border" style="color:#fff;">28</div>
+									<div class="tt-b-day-r">
+										<div class="tt-b-month" style="color:#fff;">Jul</div>
+										<div class="tt-b-date" style="color:#fff;">2022</div>
+									</div>
+								</div><br><br>
+								<h5 style="margin-left:10px;color:#FF8B17;font-weight:100;">Investiture Ceremony</h5><span style="font-size:10px;margin-left:10px;color:#777;">Upcoming Event</span>
+								<div style="padding-top:10px;">
+								<span style="margin-left:10px;background:#FF8B17;color:#fff;padding:5px 10px;">+Read More</span>
+								</div>
+								</td>
+							</tr>
+						</table>
+					</div>
+			</div>
+			</a>
+					</div>
+    </div>
+</div>
+
+
+<div class="main-content-block">
+    <div class="container">
+        <div class="row" style="margin-top:0px;">
+		
+			<div class="span12">
+				<style>
+				.quicklinks{background: url(images/bg_pattern.png); padding:10px 5px;margin-bottom:10px;height:60px;text-align:center;}
+				.quicklinks:hover{ /*background: rgb(243, 207, 1);*/ color:#fff;}
+				</style>
+				<div class="row">
+                    <a href="upload/pdf/ATL-Website_Patna.pdf" target="_blank">
+					<div class="span2 quicklinks hvr-shutter-out-horizontal"><i class="fas fa-robot" style="font-size: 24px;"></i><br>
+			         ATL</div>
+					</a>
+					
+					<a href="images/Almanac-Patna.pdf" target="_blank">
+					<div class="span2 quicklinks hvr-shutter-out-horizontal"><i class="fa fa-book" style="font-size: 24px;"></i><br>
+			         Almanac</div>
+					</a>
+					
+					<a href="https://www.youtube.com/channel/UC2VNR2593UZFa2Qt28oAO4g" target="_blank">
+					<div class="span2 quicklinks hvr-shutter-out-horizontal"><i class="fab fa-youtube" style="font-size: 24px;"></i><br> 
+					<!span class="blinking">YouTube Channel<!/span></div>
+					</a>
+					
+					<a target="_self" href="page.php?PAGE=35">
+					<div class="span2 quicklinks hvr-shutter-out-horizontal"><i class="fa fa-file-text" style="font-size: 24px;"></i><br>
+			         Forms</div>
+					 </a>
+					 
+					 <a href="page.php?PAGE=64">
+					<div class="span2 quicklinks hvr-shutter-out-horizontal"><i class="fa fa-pencil-square-o" style="font-size: 24px;"></i><br>
+			         Mission Statement</div>
+					 </a>
+					 
+					 <a href="page.php?PAGE=32" target="_self">
+					<div class="span2 quicklinks hvr-shutter-out-horizontal"><i class="fa fa-newspaper-o" style="font-size: 24px;"></i><br>
+					Newsletter</div>
+					</a>
+
+				</div>
+                     <div class="row">
+                    <a href="page.php?PAGE=34">
+					<div class="span2 quicklinks hvr-shutter-out-horizontal"><i class="fa fa-file-text" style="font-size: 24px;"></i><br>
+			         Publications</div>
+					 </a>
+																		
+                    <a href="upload/pdf/sewa-guideline.pdf" target="_blank">
+					<div class="span2 quicklinks hvr-shutter-out-horizontal"><i class="fa fa-image" style="font-size: 24px;"></i><br> 
+					SEWA Guidelines</div>
+					</a>
+					
+					<a href="page.php?PAGE=98" target="_self">
+					<div class="span2 quicklinks hvr-shutter-out-horizontal"><i class="fa fa-file-text" style="font-size: 24px;"></i><br>
+			         Student Council</div>
+					</a>
+					
+					<a href="page.php?PAGE=37">
+					<div class="span2 quicklinks hvr-shutter-out-horizontal"><i class="fa fa-file-text" style="font-size: 24px;"></i><br> Song Book</div>
+					</a>
+					
+					<a target="_self" href="page.php?PAGE=65">
+					<div class="span2 quicklinks hvr-shutter-out-horizontal"><i class="fa fa-book" style="font-size: 24px;"></i><br>
+			         TES Orbit Next Issue</div>
+					</a>
+					
+					<a target="_self" href="tc.php">
+					<div class="span2 quicklinks hvr-shutter-out-horizontal"><i class="fa fa-file-text" style="font-size: 24px;"></i><br>
+					  Transfer Certificates</div>
+					</a>
+										
+					
+                                   
+					
+				</div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="main-content-block" style="margin-bottom:20px;margin-top: 20px;">
+    <div class="container">
+		<div class="row">
+			
+            <div class="span12">
+
+				<!-- team membesr start //-->
+				<div class="main-content-block">
+                	<h2 style="font-size: 20px; font-weight: 300;background: #333333;color:#fff;text-align: center;padding: 5px;border-bottom: 1px dotted #ffffff;border-top: 1px dotted #ffffff;"><i class="fa fa-trophy" aria-hidden="true"></i> Recent Activities</h2>
+					<div class="main-content-block-entry" style="margin-top:-25px;">
+                    	<div class="row">
+                        								<div class="span3">
+                            	<div class="team-member team-member-first">
+                                	<figure><img src="images/798501662706807.png" title="ROBOFEST"></figure>
+                                    <div class="desc" style="color:#FDFDFD;">
+										<table border="0" width="100%">
+											<tr>
+												<td style="background:#FF8B17;width:80px;">
+													<div>
+														<div class="tt-b-day rem-border" style="color:#fff;">18</div>
+														<div class="tt-b-day-r">
+															<div class="tt-b-month" style="color:#fff;">Aug</div>
+															<div class="tt-b-date" style="color:#fff;">2022</div>
+														</div>
+													</div>
+												</td>
+												<td style="background:#999;">
+												<h3 title="ROBOFEST"style="color:#fff;text-align:center;margin-bottom:8px;margin-top:10px;font-size:13px;">
+																										ROBOFEST...												</h3>
+												</td>
+											</tr>
+										</table>
+										
+										<span style="color:#FDFDFD;text-align:justify;">
+											<p style="text-align: justify;">On 18 and 19 Augus...										</span>
+                                    </div>
+									<a href="recent_activity_detail.php?id=32" class="hvr-bubble-float-top" style="width: 100%;">
+									<div class="desc footer-newsletters links-home" style=";padding:4px; 0px;"><span style="color:#FF9933;">+ Read more</span></div>
+									</a>
+                                </div>
+                            </div>
+														<div class="span3">
+                            	<div class="team-member team-member-first">
+                                	<figure><img src="images/886141662706603.png" title="INDEPENDENCE DAY CELEBRATION"></figure>
+                                    <div class="desc" style="color:#FDFDFD;">
+										<table border="0" width="100%">
+											<tr>
+												<td style="background:#FF8B17;width:80px;">
+													<div>
+														<div class="tt-b-day rem-border" style="color:#fff;">15</div>
+														<div class="tt-b-day-r">
+															<div class="tt-b-month" style="color:#fff;">Aug</div>
+															<div class="tt-b-date" style="color:#fff;">2022</div>
+														</div>
+													</div>
+												</td>
+												<td style="background:#999;">
+												<h3 title="INDEPENDENCE DAY CELEBRATION"style="color:#fff;text-align:center;margin-bottom:8px;margin-top:10px;font-size:13px;">
+																										INDEPENDENCE DA...												</h3>
+												</td>
+											</tr>
+										</table>
+										
+										<span style="color:#FDFDFD;text-align:justify;">
+											<p style="text-align: justify;">The 75<sup>th</sup...										</span>
+                                    </div>
+									<a href="recent_activity_detail.php?id=31" class="hvr-bubble-float-top" style="width: 100%;">
+									<div class="desc footer-newsletters links-home" style=";padding:4px; 0px;"><span style="color:#FF9933;">+ Read more</span></div>
+									</a>
+                                </div>
+                            </div>
+														<div class="span3">
+                            	<div class="team-member team-member-first">
+                                	<figure><img src="images/28701662705936.png" title="India My Pride"></figure>
+                                    <div class="desc" style="color:#FDFDFD;">
+										<table border="0" width="100%">
+											<tr>
+												<td style="background:#FF8B17;width:80px;">
+													<div>
+														<div class="tt-b-day rem-border" style="color:#fff;">11</div>
+														<div class="tt-b-day-r">
+															<div class="tt-b-month" style="color:#fff;">Aug</div>
+															<div class="tt-b-date" style="color:#fff;">2022</div>
+														</div>
+													</div>
+												</td>
+												<td style="background:#999;">
+												<h3 title="India My Pride"style="color:#fff;text-align:center;margin-bottom:8px;margin-top:10px;font-size:13px;">
+																										India My Pride...												</h3>
+												</td>
+											</tr>
+										</table>
+										
+										<span style="color:#FDFDFD;text-align:justify;">
+											<p style="text-align: justify;">On 11<sup>th</sup>...										</span>
+                                    </div>
+									<a href="recent_activity_detail.php?id=30" class="hvr-bubble-float-top" style="width: 100%;">
+									<div class="desc footer-newsletters links-home" style=";padding:4px; 0px;"><span style="color:#FF9933;">+ Read more</span></div>
+									</a>
+                                </div>
+                            </div>
+														<div class="span3">
+                            	<div class="team-member team-member-first">
+                                	<figure><img src="images/720271662704429.png" title="humanitiWORKS"></figure>
+                                    <div class="desc" style="color:#FDFDFD;">
+										<table border="0" width="100%">
+											<tr>
+												<td style="background:#FF8B17;width:80px;">
+													<div>
+														<div class="tt-b-day rem-border" style="color:#fff;">4</div>
+														<div class="tt-b-day-r">
+															<div class="tt-b-month" style="color:#fff;">Aug</div>
+															<div class="tt-b-date" style="color:#fff;">2022</div>
+														</div>
+													</div>
+												</td>
+												<td style="background:#999;">
+												<h3 title="humanitiWORKS"style="color:#fff;text-align:center;margin-bottom:8px;margin-top:10px;font-size:13px;">
+																										humanitiWORKS...												</h3>
+												</td>
+											</tr>
+										</table>
+										
+										<span style="color:#FDFDFD;text-align:justify;">
+											<p style="text-align: justify;">The <strong><em>&l...										</span>
+                                    </div>
+									<a href="recent_activity_detail.php?id=29" class="hvr-bubble-float-top" style="width: 100%;">
+									<div class="desc footer-newsletters links-home" style=";padding:4px; 0px;"><span style="color:#FF9933;">+ Read more</span></div>
+									</a>
+                                </div>
+                            </div>
+														
+                        </div>
+                    </div>
+                </div>
+            	<!-- team membesr end //-->
+			</div>
+        </div>
+    </div>
+</div>
+
+
+<!-- footer start //-->
+<footer class="site-footer" style="padding: 10px 0px;">
+	<div class="container">
+    	<div class="row">
+        	<div class="span6">
+            	<div class="footer-widget footer-about">
+                	<h3 style="color:#fff;font-size: 20px; font-weight: 90; margin-top: 25px;">About GGVM Patna</h2>
+                    <p style="color:#FDFDFD;">GGVM Educational Society laid the foundation of veritable learning in Patna by establishing Delhi Public School in the year 1998 in a collaborative effort with the Delhi Public Schools Society, which is one of the largest chains of CBSE schools in India. DPS Patna is affiliated to CBSE, New Delhi and offers schooling from Nursery to Class XII. The last twenty three years have been a journey where perseverance and progress have been the cornerstones. Today it can proudly claim to be one of the most sought after schools in Eastern India.</p>
+
+                </div>
+            </div>
+			
+			<div class="span3">
+            	<div class="footer-widget footer-contacts">
+	            	<h2 style="color:#fff;font-size: 20px; font-weight: 100; margin-top: 25px;">School Campus</h2>
+                    <div class="footer-contacts-wrapper" style="color:#FDFDFD;">
+                    	<ul>
+                        	<li class="li1">address:</li>
+                            <li class="li2">Behind Bank Of Baroda,<br> Khemnichak,<br> Patna - 800027</li>
+                        	<li class="li1">phone:</li>
+                            <li class="li2">+91 9097714779<br> +91 9955957667
+                        	<li class="li1">email:</li>
+                            <li class="li2"><a href="#">info@ggvmpatna.com</a></li>
+                       
+                            							
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        	<div class="span3">
+            	<div class="footer-widget footer-contacts">
+	            	<h2 style="color:#fff;font-size: 20px; font-weight: 100; margin-top: 25px;">Administrative Office</h2>
+                    <div class="footer-contacts-wrapper" style="color:#FDFDFD;">
+                    	<ul>
+                        	<li class="li1">address:</li>
+                            <li class="li2">Behind Bank Of Baroda , <br>Khemnichak,<br> Patna - 800027</li>
+                        	<li class="li1">phone:</li>
+                            <li class="li2">+91 9973311118 <br>+91 9771440118
+							<li class="li1">Website:</li>
+                            <li class="li2"><a href="#">www.ggvmpatna.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer end //-->
+
+<!-- bottom line start //-->
+<div class="bottom-line">
+	<div class="container">
+    	<div class="row">
+        	<div class="span6">
+            	<p style="padding-top:20px;">© 2016-22 GGVM Patna. All rights reserved.  Powered by <a href="https://silkexpox.com">SilkExpox</a></p>
+            </div>
+        	<div class="span6">
+				<img src="images/silkexpox.png" style="float:right;">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- bottom line end //-->
+
+<!-- to the top start //-->
+<div id="to-the-top"><i class="icon-angle-up"></i></div>
+<!-- to the top end //-->
+
+
+
+</body>
+<!-- scripts start //-->
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/modernizr.js"></script>
+<script src="js/layerslider.kreaturamedia.jquery.js"></script>
+<script src="js/layerslider.transitions.js"></script>
+<script src="js/jquery-easing-1.3.js" type="text/javascript"></script>
+<script src="js/jquery-transit-modified.js" type="text/javascript"></script>
+<script src="js/jquery.jcarousel.min.js"></script>
+<script type="text/javascript" src="js/quick_newsletter.js"></script> 
+<script src="js/jquery.colorbox.js"></script>
+<script>
+jQuery(document).ready(function() {
+	jQuery('#single-projects-slides').jcarousel({
+		scroll: 1,
+		visible: 1,
+		wrap: 'both'
+    });
+});
+</script>
+<script src="js/custom.js"></script>
+<!-- scripts end //-->
+
+<!-- page load auto popup script--> 
+<script type="text/javascript" src="index.html/js/jquery.reveal.js"></script>
+<script type="text/javascript">		
+jQuery(document).ready(function($) {    
+$(function() {        
+	function showpanel() {        
+		$('.reveal-modal').reveal({            
+			animation: 'fadeAndPop',            
+			animationspeed: 800        
+		});        
+		}        
+		setTimeout(showpanel, 0000)    
+	}); 
+});
+</script>
+<script>
+jQuery(document).ready(function() {
+});
+</script>
+<!-- scripts end //-->
+
+</html>
